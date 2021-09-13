@@ -1,0 +1,63 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Project exclude paths
+/.gradle/
+.idea
+*.patch
+
+# the new rules
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+out/
+build/
+
+# Eclipse project files
+.classpath
+.project
+
+
+# IDEA/Android Studio project files, because
+# the project can be imported from settings.gradle.kts
+.idea/*
+!.idea/copyright
+!.idea/codeStyles/codeStyleConfig.xml
+
+# Log Files
+*.log
+
+
+# Sandbox stuff
+_sandbox
+
+# Android Studio captures folder
+captures/
+
+#keystor and pepk key
+keystore.jks
+private_key.pepk
